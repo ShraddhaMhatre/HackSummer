@@ -9,3 +9,4 @@ phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 #Below prints for all occurences of regex
 # findall() returns a list
 print(phoneNumRegex.findall(message))
+
